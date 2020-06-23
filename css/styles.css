@@ -258,6 +258,7 @@ p {
   margin-right: 30px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-member:nth-child(4n) {
@@ -297,6 +298,17 @@ p {
 
 .social-links .item:not(:last-child) {
   margin-right: 10px;
+}
+
+.social-links .item {
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-links .item:hover {
+  background-color: var(--focus-color);
 }
 
 /* our clients section */
@@ -495,3 +507,23 @@ p {
   width: 10px;
   height: 15px;
 }
+
+.advantages-icon-container {
+  background: #F5F4FA;
+  border-radius: 4px;
+  padding: 25px 100px;
+}
+
+.advantages-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.social-links-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-text-color)
+}
+
+.social-links-icon:hover, .social-links-icon:focus {
+  fill: var(--primary-white-color);
