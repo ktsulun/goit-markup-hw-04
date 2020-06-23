@@ -133,7 +133,17 @@ p {
 /* Кнопка героя */
 
 .order-service {
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/body/pictures/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--primary-text-color);
+  max-width: 1600px;
+  height: 600px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px 452px;
 }
 
 .order-service-link {
@@ -159,8 +169,6 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  /* Сделала фон только для видимости текста */
-  background-color: grey;
 }
 
 /* Our advantages section */
@@ -469,4 +477,21 @@ p {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   background-color: var(--focus-color);
+}
+
+/*Icons styles*/
+
+.contact-link-icon {
+  margin-right: 8px;
+  fill: currentColor;
+}
+
+.envelope {
+  width: 18px;
+  height: 11px;
+}
+
+.smartphone {
+  width: 10px;
+  height: 15px;
 }
