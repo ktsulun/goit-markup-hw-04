@@ -347,7 +347,7 @@ p {
   justify-content: center;
 }
 
-.clients-list .item {
+.clients-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,9 +358,9 @@ p {
   height: 90px;
 }
 
-.clients-list .item:hover,
-.clients-list .item:focus {
-  color: var(--focus-color);
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border-color: var(--focus-color);
 }
 
 .clients-list .item:nth-child(6n) {
