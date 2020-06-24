@@ -382,6 +382,7 @@ p {
 }
 
 .our-clients h2 {
+  min-width: 696px;
   margin-bottom: 50px;
 }
 
@@ -468,8 +469,8 @@ p {
   align-items: center;
 }
 
-.social-media-list li + li {
-  margin-left: 10px;
+.social-media-list .item:not(:nth-child(4n)) {
+  margin-right: 10px;
 }
 
 .social-media-list .item {
